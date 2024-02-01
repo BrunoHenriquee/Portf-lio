@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">Portfólio</h1>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Início</a>
+            <a class="cabecalho-menu-item" href="sobremim.html">Sobre mim</a>
+            <a class="cabecalho-menu-item"href="projetos.html">Projetos</a>
+            <a class="cabecalho-menu-item" href="linguagens.html">Linguagens</a>    
+        </nav>
+    </header>
+    <hr>
+    <h1 class="titulo-linguagens">Linguagens mais utilizadas:</h1>
+
+    <div class="conteudo-linguagens">
+       
+       
+       
+        <div class="containerjs">
+            <span class="confirm-button">
+                <img src="img/logo-javascript.png" alt="Avatar" class="imagejs">
+                    <div class="overlayjs">
+                        <div class="text"><a type="submit" class="open-modal" onclick="setModalValues()" data-open="order-modal">JavaScript</a></div>
+                </div>
+            </span>
+        </div>
+        <div class="modal" id="order-modal">
+            <div class="modal-dialog">
+                <header class="modal-header">
+                    <button class="modal-close" label="close modal" data-close>X</button>
+                </header>
+                <section class="modal-contentjs">
+                    <h1>Descrição=</h1>
+                    <p>Javascript foi uma linguagem inventada em 1920, antigamente conhecida como EcmaScript</p>
+                </section>
+                <footer class="modal-footer"></footer>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="containerhtml">
+            <img src="img/html.png" alt="Avatar" class="imagehtml">
+            <div class="overlayhtml">
+                <div class="text"><a type="submit" id="htmlDescription" onclick="descriptionHtml()">HTML</a></div>
+            </div>
+            <section class="descriptionhtml">
+            </section>
+        </div>
+        
+
+
+
+
+
+
+
+        <div class="containercss">
+            <img class="imagecss" src="img/css.png" alt="Avatar">
+            <div class="overlaycss">
+                <div class="text">CSS</div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="conteudo-linguagens-secundario">
+        <div class="containerc">
+            <img class="imagec" src="img/c-removebg-preview.png">
+            <div class="overlayc">
+                <div class="text">C</div>
+            </div>
+        </div>
+        
+
+        <div class="containermysql">
+            <img class="imagemysql" src="img/mysql-removebg-preview.png">
+            <div class="overlaymysql">
+                <div class="text">MySQL</div>
+            </div>
+        </div>
+
+
+        <div class="containerjava">
+            <img class="imagejava" src="img/Java-removebg-preview.png">
+            <div class="overlayjava">
+                <div class="text">Java</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
